@@ -41,7 +41,7 @@ $$\text{índice}_{\mathbf{M}} = (k \pmod M) + 32$$
 
 * **Constante Conocida:** $M = \mathbf{31}$.
 
-**NOTA CRÍTICA:** Para un caracter específico, se utiliza en el mismo mensaje la misma función Hash, es decir, en el mensaje encriptado cada letra se relaciona exactamente con un solo caracter "nuevo".
+**NOTA CRÍTICA:** Para casi cualquier caracter específico, se utiliza en el mismo mensaje la misma función Hash, es decir, en el mensaje encriptado cada letra se relaciona exactamente con un solo caracter "nuevo". Solamente el símbolo `/` viene mapeado por dos letras diferentes.
 ***
 
 ***
